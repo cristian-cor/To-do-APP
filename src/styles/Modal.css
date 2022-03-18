@@ -1,0 +1,35 @@
+.modalList{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modalList.is-open{
+    display: flex;
+}
+.modalList-container{
+    position: relative;
+    padding: 1rem;
+    min-width: 820px;
+    max-width: 480px;
+    min-height: 500px;
+    max-height: 600px;
+    overflow-y: scroll;
+    background-color: rgb(13,21,30, .98);
+    border-radius: 25px;
+    box-shadow: .9px 2px 30px 1px #999;
+}
+.buttonCloseList, .buttonCloseEdit, .buttonCloseCompleted{
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

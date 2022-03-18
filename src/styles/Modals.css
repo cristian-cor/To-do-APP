@@ -1,0 +1,141 @@
+.container-list{
+width: 30%;
+height: 230px;
+background-color: #A838FF;
+margin: 30px;
+border-radius: 13px;
+}
+.container-completed{
+width: 30%;
+height: 230px;
+background-color: #D5D83D;
+margin: 30px;
+border-radius: 13px;
+}
+.container-edit{
+width: 30%;
+height: 230px;
+background-color: #35D29A;
+margin: 30px;
+border-radius: 13px;
+}
+
+h2{
+color: white;
+}
+.buttonList{
+width: 190px;
+height: 50px;
+border-radius: 25px;
+border: none;
+font-weight: bold;
+font-size: 1.2rem;
+}
+.buttonEdit{
+width: 190px;
+height: 50px;
+border-radius: 25px;
+border: none;
+font-weight: bold;
+font-size: 1.2rem;
+}
+.buttonComplted{
+width: 190px;
+height: 50px;
+border-radius: 25px;
+border: none;
+font-weight: bold;
+font-size: 1.2rem;
+}
+.positionButtons{
+position: fixed;
+}
+.container_todo{
+width: 100%;
+height: 100vh;
+}
+.li-list{
+    color: red;
+    font-size: 25px;
+}
+.li-completed{
+    color: green;
+    font-size: 25px;
+}
+.li-edit{
+    color: #FAB005;
+    font-size: 25px;
+}
+.container_list{
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.container_list-1{
+display: flex;
+align-items: center;
+width: 80%;
+height: 100%;
+}
+.container_list-1-numero{
+position: relative;
+left: 20px;
+color: white;
+}
+.container_list-1-tarea{
+position: relative;
+left: 50px;
+color: white;
+font-weight: bold;
+font-size: 19px;
+top: -3px;
+}
+.container_list-btn{
+width: 20%;
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.input-edit-modal{
+    height: 40px;
+    width: 400px;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+}
+
+.btn-eliminar{
+border: 0;
+background: 0;
+left: 20px;
+margin: 20px;
+}
+.i-eliminar{
+font-size: 23px;
+color: tomato;
+cursor: pointer;
+}
+.btn-completado{
+border: 0;
+background: 0;
+
+}
+.i-completado{
+font-size: 23px;
+color: green;
+cursor: pointer;
+}
+.btn-editar{
+border: 0;
+background: 0;
+
+}
+.i-editar{
+font-size: 23px;
+color: #FAB005;
+cursor: pointer;
+}

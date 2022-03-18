@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// propertys
+import { useState } from "react";
+
+// components
+import Menu from "./components/menu/Menu";
+import ModalsTodoCompleted from "./components/modal completed/ModalsTodoCompleted";
+import ModalsTodoList from "./components/modal list/ModalsTodoList";
+
+// styles
+import './styles/App.css'
+
+// images
+import logoImg from './images/logo-3.svg'
 
 function App() {
+  const [input, setInput] = useState('');
+  const [task, setTask] = useState([]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app text-center">
+      <img className="img" src={logoImg} alt='Logo' />
+      <div className="container ">
+        <Menu
+          input={input}
+          setInput={setInput}
+          task={task}
+          setTask={setTask}
+        />
+      </div>
+      <div className="modales">
+        <ModalsTodoList
+          task={task}
+          setTask={setTask}
+        />
+        <ModalsTodoCompleted
+          task={task}
+          setTask={setTask} />
+       
+      </div>
     </div>
+
   );
 }
 

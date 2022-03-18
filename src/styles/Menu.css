@@ -1,0 +1,22 @@
+.menuContainer{
+    height: 120px;
+    background-color: #150F34;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+.buttonAdd{
+    background-color: #B0DC00;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px;
+}
+.inputSearch{
+    height: 40px;
+    width: 400px;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+}
