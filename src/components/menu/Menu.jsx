@@ -13,7 +13,7 @@ const Menu = ({input, setInput, task, setTask}) => {
     setInput(event.target.value)
   }
   const handlerSubmit = (event) => {
-    toast.success('🦄  congrats added to to do list', {
+    toast.success('🦄  congrats added to to-do list', {
       position: "top-right",
       autoClose: 2500,
       hideProgressBar: false,
