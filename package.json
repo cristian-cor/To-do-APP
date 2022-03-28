@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1"
   }
 }
